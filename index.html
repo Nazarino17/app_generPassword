@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <h1>Generation Password</h1>
+        <div class="generation">
+            
+            
+            <div class="input__str">
+                <input class="random__pass" type="text" placeholder="Password" readonly>
+                <input id="amoutn" type="text" placeholder="Password length">
+                
+            </div>
+
+            <div class="check">
+                <div class="check__item">
+                    <label for="check1">no small letters</label>
+                    <input class="check__str" id="check1" type="checkbox">
+                </div>
+
+                <div class="check__item">
+                    <label for="check2">no capital letters</label>
+                    <input class="check__str" id="check2" type="checkbox">
+                </div>
+
+                <div class="check__item">
+                    <label for="check3">no symbols</label>
+                    <input class="check__str" id="check3" type="checkbox">
+                </div>
+
+                <div class="check__item">
+                    <label for="check4">no numbers</label>
+                    <input class="check__str" id="check4" type="checkbox">
+                </div>
+            </div>
+
+            <div class="btns">
+                <button class="generation__pass">Generation</button>
+                <button class="copy__pass">Copy</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
